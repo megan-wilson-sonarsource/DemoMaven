@@ -1,21 +1,21 @@
- 
+
  ```
  mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false -DgroupId="middleware" -DartifactId="MavenTest" -Dpackage="middleware"
  ```
 
  - archetypeGroupId=org.apache.maven.archetypes
- - archetypeArtifactId=maven-archetype-quickstart 
- - DarchetypeVersion=1.4 
- - DinteractiveMode=false 
- - groupId="middleware" 
- - artifactId="MavenTest" 
+ - archetypeArtifactId=maven-archetype-quickstart
+ - DarchetypeVersion=1.4
+ - DinteractiveMode=false
+ - groupId="middleware"
+ - artifactId="MavenTest"
  - package="middleware"
 
 Note:  (groupId="middleware") = (package="middleware")
 
 ```
  ➜  MavenTest mvn package
- ➜  MavenTest java -cp target/MavenTest-1.0-SNAPSHOT.jar middleware.App 
+ ➜  MavenTest java -cp target/MavenTest-1.0-SNAPSHOT.jar middleware.App
 ```
 Hello World!
 
@@ -157,3 +157,9 @@ pom.xml:
     </pluginManagement>
   </build>
  ```
+
+Added to GitHub:
+```
+ git remote add origin https://github.com/megan-wilson-sonarsource/DemoMaven.git
+```
+
