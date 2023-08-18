@@ -28,6 +28,7 @@ Java 11 pom.xml:
   </properties>
 ```
 
+```
 mvn versions:display-plugin-updates
 [INFO] The following plugin updates are available:
 [INFO]   maven-clean-plugin ................................. 3.1.0 -> 3.2.0
@@ -57,6 +58,7 @@ mvn versions:display-dependency-updates
 mvn versions:use-latest-versions
 mvn versions:use-latest-releases
 [INFO] Updated junit:junit:jar:4.11 to version 4.13.2
+```
 
 pom.xml:
 ```
